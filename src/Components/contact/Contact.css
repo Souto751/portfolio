@@ -1,0 +1,134 @@
+.contactDiv{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    background: url('../../images/contactBg.jpg') no-repeat;
+    background-size: cover;
+    z-index: 1;
+}
+
+.contactTitleDiv{
+    box-shadow: 0px 1px 5px #346bf7;
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    background: #2a2b2b;
+    height: 75px;
+    width: 100%;
+}
+
+.contactTitle{
+    color: #eee;
+    font-size: 50px;
+    margin-top: 0px;
+    margin-left: 20px;
+}
+
+.contactForm{
+    width: 50%;
+    min-width: 250px;
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    min-height: calc(100vh - 105px);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.input{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
+    background: none;
+    margin-bottom: 20px;
+    min-height: 50px;
+    border-radius: 5px 5px 0 0;
+    outline: none;
+    font-size: 20px;
+    border-bottom: 2px solid #eee;
+    color: #eee;
+}
+
+.input:focus{
+    animation: selectedInput .5s forwards;
+}
+
+.textInput{
+    resize: vertical;
+}
+
+.submitBtn{
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    border-radius: 5px;
+    outline: none;
+    height: 30px;
+    background: #2a2b2b;
+    border: 2px solid #2a2b2b;
+    color: #eee;
+    font-weight: bold;
+    box-shadow: 0 0 3px #eee;
+}
+
+.submitBtn:hover{
+    animation: submitBtnBg .5s forwards;
+}
+
+.subtitleContact{
+    text-align: left;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    color: #eee;
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #eee7;
+    opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: #eee7;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+    color: #eee7;
+}
+
+@keyframes selectedInput{
+    from{
+
+    }
+
+    to{
+        border-bottom: 2px solid #346bf7;
+    }
+}
+
+@keyframes submitBtnBg{
+    form{
+
+    }
+
+    to{
+        background: #346bf7;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .contactTitle{
+        font-size: 30px;
+    }
+
+    .contactTitleDiv{
+        height: 50px;
+    }
+}

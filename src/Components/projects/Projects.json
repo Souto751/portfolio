@@ -1,0 +1,70 @@
+[
+    {
+        "name": "Watchlist",
+        "img": "Watchlist",
+        "id": 1,
+        "desc": "A list of series, movies and animes that I've seen with my girlfriend.",
+        "technologies": ["HTML", "CSS", "JS", "React"],
+        "links": [
+            {
+                "link": "https://souto751.github.io/watchlist/",
+                "img": "Link"
+            }, 
+            {
+                "link": "https://github.com/Souto751/watchlist",
+                "img": "Github"
+            }
+        ]
+    },
+    {
+        "name": "testBook",
+        "img": "Testbook",
+        "id": 2,
+        "desc": "A demo of a Social Network, which has a Register/Login system (with Firebase's Authentication & Host).",
+        "technologies": ["HTML", "CSS", "JS", "React", "Firebase"],
+        "links": [
+            {
+                "link": "https://testbook-bd5cc.web.app/",
+                "img": "Link"
+            }, 
+            {
+                "link": "https://github.com/Souto751/testbook",
+                "img": "Github"
+            }
+        ]
+    },
+    {
+        "name": "PupiGames",
+        "img": "Pupigames",
+        "id": 3,
+        "desc": "You will have tons of fun with games that I have developed, all included on this page!",
+        "technologies": ["HTML", "CSS", "JS", "React"],
+        "links": [
+            {
+                "link": "https://pupigames-af7d0.web.app/",
+                "img": "Link"
+            }, 
+            {
+                "link": "https://github.com/Souto751/pupiGames",
+                "img": "Github"
+            }
+        ]
+    },
+    {
+        "name": "Random Quote Generator",
+        "img": "Quote",
+        "id": 4,
+        "desc": "You will find some random programming quotes!",
+        "technologies": ["HTML", "Sass", "JS"],
+        "links": [
+            {
+                "link": "https://codepen.io/Souto751/full/gOLppbq",
+                "img": "Link"
+            }, 
+            {
+                "link": "https://github.com/Souto751/pupiGames",
+                "img": "CodePen"
+            }
+        ]
+    }
+]

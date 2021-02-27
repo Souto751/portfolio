@@ -1,0 +1,170 @@
+.projects{
+    position: relative;
+    z-index: 1;
+    background: #eee;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100vh;
+}
+
+.projectsTitleDiv{
+    box-shadow: 0px 1px 5px #346bf7;
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    background: #2a2b2b;
+    height: 75px;
+    width: 100%;
+}
+
+.projectsTitle{
+    color: #eee;
+    font-size: 50px;
+    margin-top: 0px;
+    margin-left: 20px;
+}
+
+.backTopLink{
+    margin-right: 20px;
+}
+
+.backTopLink:hover{
+    animation: goTopBtn 1s ease-in-out;
+}
+
+.projectDivEven{
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    gap: 3vw;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    margin-bottom: 10px;
+}
+
+.projectDivOdd{
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    gap: 3vw;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    margin-bottom: 10px;
+}
+
+.projectName{
+    text-decoration: underline;
+    font-size: 2vw;
+    margin-bottom: 0;
+}
+
+.projectImg{
+    box-shadow: 0px 0px 10px #2a2b2b;
+    border-radius: 3px;
+}
+
+.projectImgDiv{
+    display: flex;
+    flex-direction: column;
+    gap: 3vh;
+    width: 45%;
+    height: 100%;
+    justify-content: center;
+}
+
+.projectInfoDiv{
+    display: flex;
+    flex-direction: column;
+    gap: 4vh;
+    width: 45%;
+    height: 100%;
+    justify-content: center;
+    margin-top: -50px;
+}
+
+.projectLinksDiv{
+    display: flex;
+    gap: 1vw;
+    justify-content: center;
+}
+
+.techDiv{
+    display: flex;
+    justify-content: center;
+    gap: 1vw;
+}
+
+.projectTech{
+    max-width: 15%;
+}
+
+.projectLink{
+    width: 15%;
+}
+
+    .projectLink img{
+        width: 100%;
+    }
+
+#hr{
+    border: none;
+    height: 1px;
+    background-image: linear-gradient(to right, #2a2b2b00, #2a2b2b75, #2a2b2b00);
+}
+
+.ghLinkDiv{
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 20px;
+}
+
+.ghLinkDiv p{
+    color: #2a2b2b;
+}
+
+.ghLinkDiv p a{
+    text-decoration: none;
+    color: #346bf7;
+    font-weight: bold;
+}
+
+.projectContainer{
+    min-height: 100%;
+}
+
+@media screen and (max-width: 600px){
+    .projectsTitle{
+        font-size: 30px;
+    }
+    
+    .backTopLink img{
+        height: 30px;
+        margin-top: 5px;
+    }
+    
+    .projectsTitleDiv{
+        height: 50px;
+    }
+}
+
+@keyframes goTopBtn{
+    0%{
+        transform: translate(0, 0);
+    }
+
+    50%{
+        transform: translate(0, -7px);
+    }
+
+    100%{
+        transform: translate(0, 0);
+    }
+}

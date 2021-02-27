@@ -1,0 +1,94 @@
+.welcomeDiv{
+    position: relative;
+    width: 100%;
+    max-height: 100vh;
+    overflow: hidden;
+}
+
+.welcomeImg{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.name{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: #0005;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.nameH1{
+    color: #fff;
+    font-size: 10vw;
+    position: sticky;
+    top: 0;
+}
+
+.nameH1::after{
+    position: absolute;
+    z-index: 1;
+    right: 0;
+    left: 0;
+    display: block;
+    content: 'Agustín Souto';
+    transform: scaleY(-1);
+    opacity: .2;
+}
+
+.profileLinks{
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100vh;
+    justify-content: center;
+    gap: 10px;
+}
+
+.profLink{
+    height: 50px;
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+    background: #346bf7;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 25px;
+    line-height: 50px;
+    transform: translateX(-170px);
+    transition: transform 1s;
+}
+
+    .profLink:hover{
+        transform: translateX(0px);
+        transition: transform 1s;
+    }
+
+    .profLink img{
+        height: 100%;
+    }
+
+@media screen and (max-width: 600px){
+    .welcomeDiv{
+        height: 50px;
+        max-height: 0;
+    }
+
+    .profileLinks{
+        display: none;
+    }
+
+    
+}
