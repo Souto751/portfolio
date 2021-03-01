@@ -1,70 +1,66 @@
-# Getting Started with Create React App
+# PupiGames :briefcase:
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<img src="https://github.com/Souto751/project-imgs/blob/main/portfolio.jpg?raw=true" alt="html" width="320px" align="right" />
+This is my <a href="" target="_blank" rel="noreferrer">portfolio</a> repository. <br />
 
-## Available Scripts
+## What you will find
 
-In the project directory, you can run:
+&nbsp;&nbsp;&nbsp;&nbsp;:card_file_box:<a href="#content">Explanation</a><br/>
+&nbsp;&nbsp;&nbsp;&nbsp;♣<a href="#tech">Contact Section</a><br/>
+&nbsp;&nbsp;&nbsp;&nbsp;♦<a href="#images">Images</a><br/>
+&nbsp;&nbsp;&nbsp;&nbsp;♥<a href="#credits">Credits</a><br/>
 
-### `yarn start`
+<div id="content"></div>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Content
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+•By the moment: Memotest, Rock-Scissors-Paper and Hangman.<br/><br/>
+•You can select the <a href="#one">difficult level of the Memotest game</a>... if you dare, try the difficult ones!.<br/><br/>
+•On the Rock-Scissors-Paper game you can choose between <a href="two">2 game modes</a>: :facepunch:-:v:-:hand: and :facepunch:-:v:-:hand:-:lizard:-:vulcan_salute:<br/>
+&nbsp;&nbsp;&nbsp;-If you don't know how to play any Rock-Scissors-Paper's mode, you will find an advantages table.<br/><br/>
+•You can find lots of words on the Hangman game.
 
-### `yarn test`
+<div id="games"></div>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Games
 
-### `yarn build`
+1.&nbsp;<a href="#memo">Memotest</a><br/>
+2.1.&nbsp;<a href="#rps">Rock-Scissors-Paper</a><br/>
+2.2.&nbsp;<a href="#rpsls">Rock-Scissors-Paper-Lizard-Spock</a><br/>
+3.&nbsp;<a href="#hangman">Hangman</a><br/>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<div id="tech"></div>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Technologies Used
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<img src="https://icon-icons.com/icons2/2107/PNG/32/file_type_html_icon_130541.png" alt="html" align="left" />
+<img src="https://icon-icons.com/icons2/2107/PNG/32/file_type_css_icon_130661.png" alt="css" align="left" />
+<img src="https://icon-icons.com/icons2/2108/PNG/32/javascript_icon_130900.png" alt="js" align="left" />
+<img src="https://icon-icons.com/icons2/2415/PNG/32/react_original_logo_icon_146374.png" alt="html" align="left" />
+<img src="https://icon-icons.com/icons2/691/PNG/32/google_firebase_icon-icons.com_61475.png" alt="html" align="left" /><br/>
 
-### `yarn eject`
+<div id="images"></div>
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## Images
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<img id="one" src="https://github.com/Souto751/project-imgs/blob/main/memodiff.png?raw=true" alt="html" align="center" width="400px" />
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+<img id="two" src="https://github.com/Souto751/project-imgs/blob/main/rpsmode.jpg?raw=true" alt="html" align="center" width="400px" />
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+<img id="memo" src="https://github.com/Souto751/project-imgs/blob/main/memogame.jpg?raw=true" alt="html" align="center" width="400px" />
 
-## Learn More
+<img id="rps" src="https://github.com/Souto751/project-imgs/blob/main/rpsgame.jpg?raw=true" alt="html" align="center" width="400px" />
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+<img id="rpsls" src="https://github.com/Souto751/project-imgs/blob/main/rpslsgame.jpg?raw=true" alt="html" align="center" width="400px" />
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+<img id="hangman" src="https://github.com/Souto751/project-imgs/blob/main/hangame.jpg?raw=true" alt="html" align="center" width="400px" />
 
-### Code Splitting
+<div id="credits"></div>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Credits
 
-### Analyzing the Bundle Size
+Made by Agustín Souto
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Linkedin: (<a href="https://www.linkedin.com/in/souto751/">Souto751</a>)<br/>
+Github: (<a href="https://github.com/Souto751">Souto751</a>)<br/>
+Portfolio: (<a href="https://souto751.github.io/old-portfolio/">Agustín Souto</a>)<br/>
