@@ -6,9 +6,9 @@ This is my <a href="" target="_blank" rel="noreferrer">portfolio</a> repository.
 ## What you will find
 
 &nbsp;&nbsp;&nbsp;&nbsp;:card_file_box:<a href="#explanation">Explanation</a><br/>
-&nbsp;&nbsp;&nbsp;&nbsp;♣<a href="#contact">Contact Section</a><br/>
-&nbsp;&nbsp;&nbsp;&nbsp;♣<a href="#tech">Technologies Used</a><br/>
-&nbsp;&nbsp;&nbsp;&nbsp;♥<a href="#credits">Credits</a><br/>
+&nbsp;&nbsp;&nbsp;&nbsp;:email:<a href="#contact">Contact Section</a><br/>
+&nbsp;&nbsp;&nbsp;&nbsp;:hammer_and_wrench:<a href="#tech">Technologies Used</a><br/>
+&nbsp;&nbsp;&nbsp;&nbsp;:adult:<a href="#credits">Credits</a><br/>
 
 <div id="explanation"></div>
 
