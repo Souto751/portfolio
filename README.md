@@ -5,29 +5,27 @@ This is my <a href="" target="_blank" rel="noreferrer">portfolio</a> repository.
 
 ## What you will find
 
-&nbsp;&nbsp;&nbsp;&nbsp;:card_file_box:<a href="#content">Explanation</a><br/>
-&nbsp;&nbsp;&nbsp;&nbsp;♣<a href="#tech">Contact Section</a><br/>
+&nbsp;&nbsp;&nbsp;&nbsp;:card_file_box:<a href="#explanation">Explanation</a><br/>
+&nbsp;&nbsp;&nbsp;&nbsp;♣<a href="#contact">Contact Section</a><br/>
+&nbsp;&nbsp;&nbsp;&nbsp;♣<a href="#tech">Technologies</a><br/>
 &nbsp;&nbsp;&nbsp;&nbsp;♦<a href="#images">Images</a><br/>
 &nbsp;&nbsp;&nbsp;&nbsp;♥<a href="#credits">Credits</a><br/>
 
-<div id="content"></div>
+<div id="explanation"></div>
 
-## Content
+## Explanation
+
+adfiugadsfiuadsmfhads
+
+<div id="contact"></div>
+
+## Contact Section
 
 •By the moment: Memotest, Rock-Scissors-Paper and Hangman.<br/><br/>
 •You can select the <a href="#one">difficult level of the Memotest game</a>... if you dare, try the difficult ones!.<br/><br/>
 •On the Rock-Scissors-Paper game you can choose between <a href="two">2 game modes</a>: :facepunch:-:v:-:hand: and :facepunch:-:v:-:hand:-:lizard:-:vulcan_salute:<br/>
 &nbsp;&nbsp;&nbsp;-If you don't know how to play any Rock-Scissors-Paper's mode, you will find an advantages table.<br/><br/>
 •You can find lots of words on the Hangman game.
-
-<div id="games"></div>
-
-## Games
-
-1.&nbsp;<a href="#memo">Memotest</a><br/>
-2.1.&nbsp;<a href="#rps">Rock-Scissors-Paper</a><br/>
-2.2.&nbsp;<a href="#rpsls">Rock-Scissors-Paper-Lizard-Spock</a><br/>
-3.&nbsp;<a href="#hangman">Hangman</a><br/>
 
 <div id="tech"></div>
 
