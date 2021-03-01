@@ -8,7 +8,6 @@ This is my <a href="" target="_blank" rel="noreferrer">portfolio</a> repository.
 &nbsp;&nbsp;&nbsp;&nbsp;:card_file_box:<a href="#explanation">Explanation</a><br/>
 &nbsp;&nbsp;&nbsp;&nbsp;♣<a href="#contact">Contact Section</a><br/>
 &nbsp;&nbsp;&nbsp;&nbsp;♣<a href="#tech">Technologies Used</a><br/>
-&nbsp;&nbsp;&nbsp;&nbsp;♦<a href="#images">Images</a><br/>
 &nbsp;&nbsp;&nbsp;&nbsp;♥<a href="#credits">Credits</a><br/>
 
 <div id="explanation"></div>
@@ -36,22 +35,6 @@ For this section I implement EmailJS, to make functional a contact form that sen
 <img src="https://icon-icons.com/icons2/2415/PNG/32/react_original_logo_icon_146374.png" alt="html" align="left" />
 <img src="https://github.com/Souto751/portfolio-react/blob/main/src/images/emailjs.png?raw=true" alt="html" align="left" width="32px" />
 <img src="https://icon-icons.com/icons2/691/PNG/32/google_firebase_icon-icons.com_61475.png" alt="html" align="left" /><br/>
-
-<div id="images"></div>
-
-## Images
-
-<img id="one" src="https://github.com/Souto751/project-imgs/blob/main/memodiff.png?raw=true" alt="html" align="center" width="400px" />
-
-<img id="two" src="https://github.com/Souto751/project-imgs/blob/main/rpsmode.jpg?raw=true" alt="html" align="center" width="400px" />
-
-<img id="memo" src="https://github.com/Souto751/project-imgs/blob/main/memogame.jpg?raw=true" alt="html" align="center" width="400px" />
-
-<img id="rps" src="https://github.com/Souto751/project-imgs/blob/main/rpsgame.jpg?raw=true" alt="html" align="center" width="400px" />
-
-<img id="rpsls" src="https://github.com/Souto751/project-imgs/blob/main/rpslsgame.jpg?raw=true" alt="html" align="center" width="400px" />
-
-<img id="hangman" src="https://github.com/Souto751/project-imgs/blob/main/hangame.jpg?raw=true" alt="html" align="center" width="400px" />
 
 <div id="credits"></div>
 
