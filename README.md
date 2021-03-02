@@ -1,7 +1,7 @@
 # Portfolio :briefcase:
 
 <img src="https://github.com/Souto751/project-imgs/blob/main/portfolio.jpg?raw=true" alt="html" width="320px" align="right" />
-This is my <a href="" target="_blank" rel="noreferrer">portfolio</a> repository. <br />
+This is my <a href="https://souto751.github.io/portfolio/" target="_blank" rel="noreferrer">portfolio</a> repository. <br />
 
 ## What you will find
 
