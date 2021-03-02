@@ -31,7 +31,7 @@
 }
 
 .backTopLink:hover{
-    animation: goTopBtn 1s ease-in-out;
+    animation: goTopBtn .75s ease-in-out;
 }
 
 .projectDivEven{
@@ -86,7 +86,7 @@
     width: 45%;
     height: 100%;
     justify-content: center;
-    margin-top: -50px;
+    margin-top: 0;
 }
 
 .projectLinksDiv{
@@ -102,11 +102,13 @@
 }
 
 .projectTech{
-    max-width: 15%;
+    width: 15%;
+    max-width: 50px;
 }
 
 .projectLink{
     width: 15%;
+    max-width: 50px;
 }
 
     .projectLink img{
@@ -166,5 +168,36 @@
 
     100%{
         transform: translate(0, 0);
+    }
+}
+
+@media screen and (max-width: 800px){
+    
+    .projectDivOdd{
+        flex-direction: column-reverse;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 0;
+    }
+
+    .projectDivEven{
+        flex-direction: column-reverse;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 0;
+    }
+
+    .projectName{
+        font-size: 20px;
+    }
+
+    .projectImgDiv{
+        width: 100%;
+    }
+
+    .projectInfoDiv{
+        width: 100%;
     }
 }

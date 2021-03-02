@@ -75,7 +75,7 @@ export default function Projects() {
     }
 
     return (
-        <div className="projects">
+        <div className="projects noselect">
             <div className="projectsTitleDiv">
                 <div />
                 <h2 className="projectsTitle">Projects</h2>

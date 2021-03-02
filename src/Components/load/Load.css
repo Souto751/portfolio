@@ -22,15 +22,16 @@
 }
 
 .loader-inner {
+    position: relative;
     vertical-align: top;
     display: inline-block;
     width: 100%;
-    background-color: #fff;
+    background-color: #346bf7;
     animation: loader-inner 3s infinite ease-in;
 }
 
 .appDiv{
-    /*display: none;*/
+    display: none;
 }
 
 @keyframes fadeLoad{

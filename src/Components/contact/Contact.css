@@ -2,6 +2,7 @@
     position: relative;
     width: 100%;
     min-height: 100vh;
+    padding-bottom: 15px;
     background: url('../../images/contactBg.jpg') no-repeat;
     background-size: cover;
     z-index: 1;
@@ -58,7 +59,7 @@
 }
 
 .textInput{
-    resize: vertical;
+    resize: none;
 }
 
 .submitBtn{
@@ -70,10 +71,10 @@
     outline: none;
     height: 30px;
     background: #2a2b2b;
-    border: 2px solid #2a2b2b;
+    border: 2px solid #eee;
     color: #eee;
     font-weight: bold;
-    box-shadow: 0 0 3px #eee;
+    box-shadow: 0 0 10px #346bf7;
 }
 
 .submitBtn:hover{
@@ -88,6 +89,7 @@
     color: #eee;
     font-size: 20px;
     margin-bottom: 5px;
+    font-weight: bold;
 }
 
 ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
@@ -127,8 +129,14 @@
     .contactTitle{
         font-size: 30px;
     }
-
+    
     .contactTitleDiv{
         height: 50px;
+    }
+}
+
+@media screen and (max-width: 800px){
+    .input{
+        width: 75%;
     }
 }

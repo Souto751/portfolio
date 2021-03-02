@@ -27,7 +27,7 @@ export default function Contact() {
     }
 
     return (
-        <div className="contactDiv" id="Contact">
+        <div className="contactDiv noselect" id="Contact">
             <div className="contactTitleDiv">
                 <div />
                 <h2 className="contactTitle">Contact</h2>
