@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/react-portfolio/static/css/main.30ca70fb.chunk.css",
+    "main.js": "/react-portfolio/static/js/main.39391a0b.chunk.js",
+    "main.js.map": "/react-portfolio/static/js/main.39391a0b.chunk.js.map",
+    "runtime-main.js": "/react-portfolio/static/js/runtime-main.7753687a.js",
+    "runtime-main.js.map": "/react-portfolio/static/js/runtime-main.7753687a.js.map",
+    "static/js/2.0109a176.chunk.js": "/react-portfolio/static/js/2.0109a176.chunk.js",
+    "static/js/2.0109a176.chunk.js.map": "/react-portfolio/static/js/2.0109a176.chunk.js.map",
+    "index.html": "/react-portfolio/index.html",
+    "static/css/main.30ca70fb.chunk.css.map": "/react-portfolio/static/css/main.30ca70fb.chunk.css.map",
+    "static/js/2.0109a176.chunk.js.LICENSE.txt": "/react-portfolio/static/js/2.0109a176.chunk.js.LICENSE.txt",
+    "static/media/CV-Agustin Souto.36549e8d.pdf": "/react-portfolio/static/media/CV-Agustin Souto.36549e8d.pdf",
+    "static/media/backTop.e03d2e3d.png": "/react-portfolio/static/media/backTop.e03d2e3d.png",
+    "static/media/Contact.css": "/react-portfolio/static/media/contactBg.c3f9d753.jpg",
+    "static/media/contactBtn.2c91d0b5.png": "/react-portfolio/static/media/contactBtn.2c91d0b5.png",
+    "static/media/cpp.2cc57501.png": "/react-portfolio/static/media/cpp.2cc57501.png",
+    "static/media/cv.2f42c397.png": "/react-portfolio/static/media/cv.2f42c397.png",
+    "static/media/github.53096c39.png": "/react-portfolio/static/media/github.53096c39.png",
+    "static/media/githubLink.6cc83661.png": "/react-portfolio/static/media/githubLink.6cc83661.png",
+    "static/media/js.d02d2aeb.png": "/react-portfolio/static/media/js.d02d2aeb.png",
+    "static/media/link.c0d64326.png": "/react-portfolio/static/media/link.c0d64326.png",
+    "static/media/linkedin.0dc7dc4f.png": "/react-portfolio/static/media/linkedin.0dc7dc4f.png",
+    "static/media/mail.a57b7c44.png": "/react-portfolio/static/media/mail.a57b7c44.png",
+    "static/media/presentationBg.d17ab6e7.jpg": "/react-portfolio/static/media/presentationBg.d17ab6e7.jpg",
+    "static/media/pupiGames.7d134b76.jpg": "/react-portfolio/static/media/pupiGames.7d134b76.jpg",
+    "static/media/randomQuote.1929b2ae.jpg": "/react-portfolio/static/media/randomQuote.1929b2ae.jpg",
+    "static/media/react.74693f05.png": "/react-portfolio/static/media/react.74693f05.png",
+    "static/media/testbook.f18bf139.jpg": "/react-portfolio/static/media/testbook.f18bf139.jpg",
+    "static/media/watchlist.6e677155.jpg": "/react-portfolio/static/media/watchlist.6e677155.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7753687a.js",
+    "static/js/2.0109a176.chunk.js",
+    "static/css/main.30ca70fb.chunk.css",
+    "static/js/main.39391a0b.chunk.js"
+  ]
+}
