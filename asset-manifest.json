@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.e736aefd.chunk.css",
+    "main.css": "/portfolio/static/css/main.1b8c1e70.chunk.css",
     "main.js": "/portfolio/static/js/main.39391a0b.chunk.js",
     "main.js.map": "/portfolio/static/js/main.39391a0b.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.4835ebcd.js",
@@ -8,7 +8,7 @@
     "static/js/2.0109a176.chunk.js": "/portfolio/static/js/2.0109a176.chunk.js",
     "static/js/2.0109a176.chunk.js.map": "/portfolio/static/js/2.0109a176.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "static/css/main.e736aefd.chunk.css.map": "/portfolio/static/css/main.e736aefd.chunk.css.map",
+    "static/css/main.1b8c1e70.chunk.css.map": "/portfolio/static/css/main.1b8c1e70.chunk.css.map",
     "static/js/2.0109a176.chunk.js.LICENSE.txt": "/portfolio/static/js/2.0109a176.chunk.js.LICENSE.txt",
     "static/media/CV-Agustin Souto.36549e8d.pdf": "/portfolio/static/media/CV-Agustin Souto.36549e8d.pdf",
     "static/media/backTop.e03d2e3d.png": "/portfolio/static/media/backTop.e03d2e3d.png",
@@ -23,6 +23,7 @@
     "static/media/linkedin.0dc7dc4f.png": "/portfolio/static/media/linkedin.0dc7dc4f.png",
     "static/media/mail.a57b7c44.png": "/portfolio/static/media/mail.a57b7c44.png",
     "static/media/presentationBg.d17ab6e7.jpg": "/portfolio/static/media/presentationBg.d17ab6e7.jpg",
+    "static/media/Presentation.css": "/portfolio/static/media/presentationBgMobile.5fc1d81a.jpg",
     "static/media/pupiGames.7d134b76.jpg": "/portfolio/static/media/pupiGames.7d134b76.jpg",
     "static/media/randomQuote.1929b2ae.jpg": "/portfolio/static/media/randomQuote.1929b2ae.jpg",
     "static/media/react.74693f05.png": "/portfolio/static/media/react.74693f05.png",
@@ -32,7 +33,7 @@
   "entrypoints": [
     "static/js/runtime-main.4835ebcd.js",
     "static/js/2.0109a176.chunk.js",
-    "static/css/main.e736aefd.chunk.css",
+    "static/css/main.1b8c1e70.chunk.css",
     "static/js/main.39391a0b.chunk.js"
   ]
 }
