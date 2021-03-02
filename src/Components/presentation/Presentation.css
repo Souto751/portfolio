@@ -173,3 +173,9 @@
         height: 50px;
     }
 }
+
+@media screen and (orientation: portrait){
+    .welcomeImg{
+        content: url('../../images/presentationBgMobile.jpg');
+    }
+}
