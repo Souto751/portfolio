@@ -1,7 +1,7 @@
 # Portfolio :briefcase:
 
 <img src="https://github.com/Souto751/project-imgs/blob/main/portfolio.jpg?raw=true" alt="html" width="320px" align="right" />
-This is my <a href="" target="_blank" rel="noreferrer">portfolio</a> repository. <br />
+This is my <a href="https://souto751.github.io/portfolio/" target="_blank" rel="noreferrer">portfolio</a> repository. <br />
 
 ## What you will find
 
@@ -14,7 +14,7 @@ This is my <a href="" target="_blank" rel="noreferrer">portfolio</a> repository.
 
 ## Explanation
 
-This is my portfolio that I developed with ReactJS, and it's hosted on Firebase.<br/>
+This is my portfolio that I developed with ReactJS, and it's hosted on GitHub-Pages.<br/>
 You will see an animation when the page is loading the first time, then there are 3 sections: the welcome section, the projects section and the contact section.<br/>
 On the welcome section, there is a image as a background, and my name on the center. On the left there are links to my Linkedin, GitHub, to the Contact section and my Resume.<br/>
 On the projects section, you will find my main projects, each with a title, a description, the technologies that I used to develop them, an image and links to the page and to the GitHub repository.<br/>
@@ -33,8 +33,7 @@ For this section I implement EmailJS, to make functional a contact form that sen
 <img src="https://icon-icons.com/icons2/2107/PNG/32/file_type_css_icon_130661.png" alt="css" align="left" />
 <img src="https://icon-icons.com/icons2/2108/PNG/32/javascript_icon_130900.png" alt="js" align="left" />
 <img src="https://icon-icons.com/icons2/2415/PNG/32/react_original_logo_icon_146374.png" alt="html" align="left" />
-<img src="https://github.com/Souto751/portfolio-react/blob/main/src/images/emailjs.png?raw=true" alt="html" align="left" width="32px" />
-<img src="https://icon-icons.com/icons2/691/PNG/32/google_firebase_icon-icons.com_61475.png" alt="html" align="left" /><br/>
+<img src="https://github.com/Souto751/portfolio-react/blob/main/src/images/emailjs.png?raw=true" alt="html" align="left" width="32px" /><br/>
 
 <div id="credits"></div>
 
