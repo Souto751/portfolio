@@ -29,7 +29,7 @@ export default function Presentation() {
     }
 
     return (
-        <div className="welcomeDiv noselect">
+        <div className="welcomeDiv noselect" id="top">
             <img src={welcomeImg} alt="pupi" className="welcomeImg" />
             <div className="name">
                 <h1 className="nameH1">Agustín Souto</h1>

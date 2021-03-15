@@ -42,9 +42,9 @@
     margin-left: auto;
     margin-right: auto;
     gap: 3vw;
-    padding-top: 5vh;
-    padding-bottom: 5vh;
     margin-bottom: 10px;
+    padding-bottom: 30px;
+    padding-top: 30px;
 }
 
 .projectDivOdd{
@@ -54,15 +54,16 @@
     margin-left: auto;
     margin-right: auto;
     gap: 3vw;
-    padding-top: 5vh;
-    padding-bottom: 5vh;
     margin-bottom: 10px;
+    padding-bottom: 30px;
+    padding-top: 30px;
 }
 
 .projectName{
     text-decoration: underline;
     font-size: 2vw;
     margin-bottom: 0;
+    margin-top: 0;
 }
 
 .projectImg{
@@ -73,10 +74,11 @@
 .projectImgDiv{
     display: flex;
     flex-direction: column;
+    margin-top: auto;
+    margin-bottom: auto;
     gap: 3vh;
     width: 45%;
     height: 100%;
-    justify-content: center;
 }
 
 .projectInfoDiv{

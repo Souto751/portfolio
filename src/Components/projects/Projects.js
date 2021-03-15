@@ -9,11 +9,13 @@ import WatchlistImg from '../../images/watchlist.jpg';
 import TestBook from '../../images/testbook.jpg';
 import PupiGames from '../../images/pupiGames.jpg';
 import QuoteGenerator from '../../images/randomQuote.jpg';
+import Bakery from '../../images/bakery.jpg'
 
 import HTML from '../../images/html.png';
 import CSS from '../../images/css.png';
 import JS from '../../images/js.png';
 import ReactIcon from '../../images/react.png';
+import Svelte from '../../images/svelte.png';
 import Cpp from '../../images/cpp.png';
 import Firebase from '../../images/firebase.png';
 import Sass from '../../images/sass.png';
@@ -41,6 +43,8 @@ export default function Projects() {
                 return PupiGames;
             case "Quote":
                 return QuoteGenerator;
+            case "Bakery":
+                return Bakery;
 
             //Technologies Image
             case "HTML":
@@ -57,6 +61,8 @@ export default function Projects() {
                 return Firebase;
             case "Sass":
                 return Sass;
+            case "Svelte":
+                return Svelte;
 
             //Link Image
             case "Github":
@@ -79,7 +85,7 @@ export default function Projects() {
             <div className="projectsTitleDiv">
                 <div />
                 <h2 className="projectsTitle">Projects</h2>
-                <a href="#" className="backTopLink"><img src={BackToTopBtn} alt="backTop" className="backTopBtn" /></a>
+                <a href="#top" className="backTopLink"><img src={BackToTopBtn} alt="backTop" className="backTopBtn" /></a>
             </div>
             {
                 ProjectsList.map(proj => {

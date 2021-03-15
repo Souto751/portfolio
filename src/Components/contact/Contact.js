@@ -34,7 +34,7 @@ export default function Contact() {
                 {/*
                     Animation to go to the top, is on the Projects.css file.
                 */}
-                <a href="#" className="backTopLink"><img src={BackToTopBtn} alt="backTop" className="backTopBtn" /></a>
+                <a href="#top" className="backTopLink"><img src={BackToTopBtn} alt="backTop" className="backTopBtn" /></a>
             </div>
             <div className="contactFormDiv">
                 <form className="contactForm" onSubmit={sendEmail}>
