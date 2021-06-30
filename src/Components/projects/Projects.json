@@ -66,22 +66,5 @@
                 "img": "Github"
             }
         ]
-    },
-    {
-        "name": "Random Quote Generator",
-        "img": "Quote",
-        "id": 5,
-        "desc": "You will find some random programming quotes!",
-        "technologies": ["HTML", "Sass", "JS"],
-        "links": [
-            {
-                "link": "https://codepen.io/Souto751/full/gOLppbq",
-                "img": "Link"
-            }, 
-            {
-                "link": "https://github.com/Souto751/pupiGames",
-                "img": "CodePen"
-            }
-        ]
     }
 ]
