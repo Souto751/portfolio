@@ -15,56 +15,5 @@
                 "img": "Github"
             }
         ]
-    },
-    {
-        "name": "testBook",
-        "img": "Testbook",
-        "id": 2,
-        "desc": "A demo of a Social Network, which has a Register/Login system (with Firebase's Authentication & Host).",
-        "technologies": ["HTML", "CSS", "JS", "React", "Firebase"],
-        "links": [
-            {
-                "link": "https://testbook-bd5cc.web.app/",
-                "img": "Link"
-            }, 
-            {
-                "link": "https://github.com/Souto751/testbook",
-                "img": "Github"
-            }
-        ]
-    },
-    {
-        "name": "Pupi's Bakery",
-        "img": "Bakery",
-        "id": 3,
-        "desc": "A website for the Pupi's Bakery, hosted on Firebase.",
-        "technologies": ["HTML", "CSS", "JS", "Svelte", "Firebase"],
-        "links": [
-            {
-                "link": "https://pupi-bakery.web.app/",
-                "img": "Link"
-            }, 
-            {
-                "link": "https://github.com/Souto751/pupiBakery",
-                "img": "Github"
-            }
-        ]
-    },
-    {
-        "name": "PupiGames",
-        "img": "Pupigames",
-        "id": 4,
-        "desc": "You will have tons of fun with games that I have developed, all included on this page!",
-        "technologies": ["HTML", "CSS", "JS", "React", "Firebase"],
-        "links": [
-            {
-                "link": "https://pupigames-af7d0.web.app/",
-                "img": "Link"
-            }, 
-            {
-                "link": "https://github.com/Souto751/pupiGames",
-                "img": "Github"
-            }
-        ]
     }
 ]
