@@ -9,7 +9,8 @@ import WatchlistImg from '../../images/watchlist.jpg';
 import TestBook from '../../images/testbook.jpg';
 import PupiGames from '../../images/pupiGames.jpg';
 import QuoteGenerator from '../../images/randomQuote.jpg';
-import Bakery from '../../images/bakery.jpg'
+import Bakery from '../../images/bakery.jpg';
+import ScoreYourLook from '../../images/scoreyourlook.jpg';
 
 import HTML from '../../images/html.png';
 import CSS from '../../images/css.png';
@@ -45,6 +46,8 @@ export default function Projects() {
                 return QuoteGenerator;
             case "Bakery":
                 return Bakery;
+            case "Scoreyourlook":
+                return ScoreYourLook
 
             //Technologies Image
             case "HTML":

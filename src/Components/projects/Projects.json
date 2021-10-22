@@ -15,5 +15,73 @@
                 "img": "Github"
             }
         ]
+    },
+    {
+        "name": "PupiGames",
+        "img": "Pupigames",
+        "id": 2,
+        "desc": "Some games developed with ReactJS.",
+        "technologies": ["HTML", "CSS", "JS", "React", "Firebase"],
+        "links": [
+            {
+                "link": "https://pupigames-af7d0.web.app/",
+                "img": "Link"
+            }, 
+            {
+                "link": "https://github.com/Souto751/pupiGames",
+                "img": "Github"
+            }
+        ]
+    },
+    {
+        "name": "TestBook",
+        "img": "Testbook",
+        "id": 3,
+        "desc": "Social Network, only functional login and redirecting.",
+        "technologies": ["HTML", "CSS", "JS", "React", "Firebase"],
+        "links": [
+            {
+                "link": "https://testbook-bd5cc.web.app/login",
+                "img": "Link"
+            }, 
+            {
+                "link": "https://github.com/Souto751/testbook",
+                "img": "Github"
+            }
+        ]
+    },
+    {
+        "name": "Pupi's Bakery",
+        "img": "Bakery",
+        "id": 4,
+        "desc": "Bakery page, with a carousel, a gallery, a list of products and a contact form.",
+        "technologies": ["HTML", "CSS", "JS", "Svelte", "Firebase"],
+        "links": [
+            {
+                "link": "https://pupi-bakery.web.app/",
+                "img": "Link"
+            }, 
+            {
+                "link": "https://github.com/Souto751/pupiBakery",
+                "img": "Github"
+            }
+        ]
+    },
+    {
+        "name": "ScoreYourLook",
+        "img": "Scoreyourlook",
+        "id": 5,
+        "desc": "Football Jerseys Shop **Work in Progress**.",
+        "technologies": ["HTML", "CSS", "JS", "React", "Firebase"],
+        "links": [
+            {
+                "link": "https://scoreyourlook.web.app/",
+                "img": "Link"
+            }, 
+            {
+                "link": "https://github.com/Souto751/score-your-look",
+                "img": "Github"
+            }
+        ]
     }
 ]
