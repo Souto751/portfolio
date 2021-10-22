@@ -37,7 +37,7 @@
         "name": "TestBook",
         "img": "Testbook",
         "id": 3,
-        "desc": "Social Network, only functional login and redirecting.",
+        "desc": "Social Network, only functional login and redirecting. **Work in Progress**.",
         "technologies": ["HTML", "CSS", "JS", "React", "Firebase"],
         "links": [
             {
@@ -54,7 +54,7 @@
         "name": "Pupi's Bakery",
         "img": "Bakery",
         "id": 4,
-        "desc": "Bakery page, with a carousel, a gallery, a list of products and a contact form.",
+        "desc": "Bakery page, with a carousel, a gallery, a list of products and a contact form. (A Test of Svelte)",
         "technologies": ["HTML", "CSS", "JS", "Svelte", "Firebase"],
         "links": [
             {
