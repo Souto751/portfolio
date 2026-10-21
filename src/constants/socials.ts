@@ -8,6 +8,6 @@ export const socialLinks: SocialLink[] = [
 
 export const siteConfig = {
   name: 'Agustin Souto',
-  url: 'https://agustinsouto.dev',
+  url: 'https://agustinsouto.vercel.app',
   email: 'agus.souto75@gmail.com',
 };

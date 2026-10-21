@@ -3,7 +3,7 @@
 Interactive portfolio with a pixel-art RPG look, in English and Spanish.
 Recruiter-friendly too: a one-page, printable **Quick CV** lives at `/cv`.
 
-🔗 **Live:** _coming soon (Vercel)_ · [LinkedIn](https://www.linkedin.com/in/souto751) · [GitHub](https://github.com/Souto751)
+🔗 **Live:** [agustinsouto.vercel.app](https://agustinsouto.vercel.app) · [LinkedIn](https://www.linkedin.com/in/souto751) · [GitHub](https://github.com/Souto751)
 
 ## Stack
 
