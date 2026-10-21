@@ -7,6 +7,7 @@ import { useLanguage } from '@/lib/i18n';
 import { navItems } from '@/constants/nav';
 import { useActiveSection } from '@/hooks/useActiveSection';
 import { LanguageToggle } from '@/components/LanguageToggle';
+import { MusicToggle } from '@/components/MusicToggle';
 import { cn } from '@/utils/cn';
 import type { SectionId } from '@/types';
 
@@ -17,7 +18,11 @@ function scrollToSection(id: SectionId) {
 }
 
 /** Sticky RPG-style main menu / nav bar with pixel hover states and mobile drawer. */
-export function NavMenu() {
+interface NavMenuProps {
+  music: { enabled: boolean; toggle: () => void; volume: number; setVolume: (volume: number) => void };
+}
+
+export function NavMenu({ music }: NavMenuProps) {
   const { t } = useLanguage();
   const activeSection = useActiveSection(sectionIds);
   const [mobileOpen, setMobileOpen] = useState(false);
@@ -58,17 +63,21 @@ export function NavMenu() {
           >
             <FileText size={12} aria-hidden="true" /> {t('nav.quickCv')}
           </Link>
+          <MusicToggle compact enabled={music.enabled} onToggle={music.toggle} volume={music.volume} onVolumeChange={music.setVolume} />
           <LanguageToggle />
         </div>
 
-        <button
-          className="xl:hidden"
-          onClick={() => setMobileOpen((prev) => !prev)}
-          aria-label={mobileOpen ? t('nav.closeMenu') : t('nav.openMenu')}
-          aria-expanded={mobileOpen}
-        >
-          {mobileOpen ? <X className="text-pixel-green" /> : <Menu className="text-pixel-green" />}
-        </button>
+        <div className="flex items-center gap-3 xl:hidden">
+          <MusicToggle compact enabled={music.enabled} onToggle={music.toggle} volume={music.volume} onVolumeChange={music.setVolume} />
+          <button
+            className="xl:hidden"
+            onClick={() => setMobileOpen((prev) => !prev)}
+            aria-label={mobileOpen ? t('nav.closeMenu') : t('nav.openMenu')}
+            aria-expanded={mobileOpen}
+          >
+            {mobileOpen ? <X className="text-pixel-green" /> : <Menu className="text-pixel-green" />}
+          </button>
+        </div>
       </nav>
 
       {/* CSS-only collapse — see ExperienceSection for why this avoids the animation library. */}

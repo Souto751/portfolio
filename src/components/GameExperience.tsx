@@ -58,7 +58,7 @@ export function GameExperience() {
 
       {/* Keep the sticky header out of the DOM during the splash — it sits at a higher
           z-index than the Landing screen and was covering the character/avatar. */}
-      {started && <NavMenu />}
+      {started && <NavMenu music={music} />}
 
       <main id="main-content">
         <HomeHero />
