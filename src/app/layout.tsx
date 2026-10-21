@@ -52,7 +52,7 @@ export const metadata: Metadata = {
     siteName: `${siteConfig.name} Portfolio`,
     locale: 'en_US',
     alternateLocale: ['es_AR'],
-    images: [{ url: '/og-image.png', width: 1200, height: 630, alt: 'Agustin Souto — Full Stack Developer' }],
+    images: [{ url: '/og-image.png', width: 2400, height: 1260, alt: 'Agustin Souto — Full Stack Developer' }],
   },
   twitter: {
     card: 'summary_large_image',
