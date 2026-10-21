@@ -1,0 +1,52 @@
+# dependencias
+/node_modules
+/.pnp
+.pnp.js
+.yarn/install-state.gz
+
+# next.js (builds y cache)
+/.next/
+/out/
+/build
+*.tsbuildinfo
+next-env.d.ts
+
+# vercel (configuracion local del proyecto vinculado)
+.vercel
+
+# variables de entorno y secretos (nunca subir)
+.env
+.env*.local
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.keystore
+*.b64
+
+# logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+*.log
+
+# tests / cobertura
+/coverage
+
+# sistema operativo y editores
+.DS_Store
+Thumbs.db
+desktop.ini
+.idea/
+.vscode/*
+!.vscode/extensions.json
+*.swp
+
+# documentos con datos personales: en /public solo van las versiones "-web" ya editadas
+/public/assets/certificates/*
+!/public/assets/certificates/*-web.jpg
+!/public/assets/certificates/alkemy.jpg
+!/public/assets/certificates/mejora-continua-hospital.jpg
+!/public/assets/certificates/mejora-continua-sameco.jpg
