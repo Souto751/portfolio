@@ -325,15 +325,15 @@ const en = {
         name: 'TinMangas',
         status: 'Released — used by friends',
         description:
-          'An Android reader for manga and comics in .cbr / .cbz files, with series grouping, covers and progress saved locally.',
+          'An Android reader for manga, comics and webtoons in .cbr / .cbz files, with series grouping, covers, progress saved locally and MangaDex chapters.',
         problem:
           'Most readers are bloated or online-first. I wanted a fast offline reader for my own files that reads right to left by default.',
         solution:
-          'Pick a folder, the app groups volumes by series, extracts pages to cache on first open and remembers the last page. Manga / comic modes, light and dark themes.',
+          'Pick a folder, the app groups volumes by series, extracts pages to cache on first open and remembers the last page. Three reading modes (manga, comic and vertical webtoon) remembered per series, pinch zoom, light and dark themes.',
         architecture:
           'Expo SDK 57 + React Native (New Architecture, Hermes), local JSON storage, a custom Expo module in Kotlin with 7-Zip-JBinding for RAR, GitHub Actions for signed releases.',
         challenges:
-          'Hermes has no WebAssembly, so the JS RAR library failed in the APK. Solved it with a native module. Also had to keep the same signing key so updates install over the old app.',
+          'Hermes has no WebAssembly, so the JS RAR library failed in the APK. Solved it with a native module. In webtoon mode every page has a different height, so images are measured to place progress correctly, and zoom applies to the whole strip without drifting while pinching.',
         results:
           'Installable APK with in-app update banner that downloads new releases from GitHub.',
         role:

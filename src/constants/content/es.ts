@@ -327,15 +327,15 @@ const es: typeof en = {
         name: 'TinMangas',
         status: 'Publicado — lo usan conocidos',
         description:
-          'Un lector Android de mangas y comics en .cbr / .cbz, que agrupa por serie, muestra tapas y guarda el progreso localmente.',
+          'Un lector Android de mangas, comics y webtoons en .cbr / .cbz, que agrupa por serie, muestra tapas, guarda el progreso localmente y tambien lee capitulos de MangaDex.',
         problem:
           'La mayoria de los lectores son pesados o dependen de internet. Queria un lector rapido y offline para mis archivos, con lectura de derecha a izquierda por defecto.',
         solution:
-          'Elegis una carpeta, la app agrupa los tomos por serie, extrae las paginas a cache la primera vez y recuerda la ultima pagina. Modos manga / comic, temas claro y oscuro.',
+          'Elegis una carpeta, la app agrupa los tomos por serie, extrae las paginas a cache la primera vez y recuerda la ultima pagina. Tres modos de lectura (manga, comic y webtoon vertical) que cada serie recuerda, zoom con pellizco, temas claro y oscuro.',
         architecture:
           'Expo SDK 57 + React Native (New Architecture, Hermes), almacenamiento en JSON local, un modulo Expo propio en Kotlin con 7-Zip-JBinding para RAR, GitHub Actions para releases firmados.',
         challenges:
-          'Hermes no tiene WebAssembly, asi que la libreria JS de RAR fallaba en el APK: lo resolvi con un modulo nativo. Tambien habia que mantener la misma firma para que las actualizaciones se instalen encima.',
+          'Hermes no tiene WebAssembly, asi que la libreria JS de RAR fallaba en el APK: lo resolvi con un modulo nativo. En modo webtoon cada pagina mide distinto, asi que se miden las imagenes para ubicar bien el progreso, y el zoom se aplica sobre toda la tira sin que se corra al pellizcar.',
         results: 'APK instalable con aviso de actualizacion dentro de la app que descarga las nuevas versiones desde GitHub.',
         role:
           'Defini el producto (offline, sin cuenta, sin backend) y el flujo de releases. La IA implemento la app y el modulo nativo; yo probe cada build en mi telefono y decidi que entraba.',

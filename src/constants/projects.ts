@@ -47,7 +47,9 @@ export const projects: Project[] = [
     ...keys('tinmangas'),
     image: '/assets/images/projects/tinmangas.svg',
     imageAlt: 'TinMangas — manga reader on an Android phone',
-    technologies: ['React Native', 'Expo', 'TypeScript', 'Kotlin', 'GitHub Actions'],
+    technologies: ['React Native', 'Expo', 'TypeScript', 'Kotlin', 'Reanimated', 'GitHub Actions'],
+    github: `${GITHUB}/TinManga`,
+    download: `${GITHUB}/TinManga/releases/latest`,
   },
   {
     id: 'gameManager',
