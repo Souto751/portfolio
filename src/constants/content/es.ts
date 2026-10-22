@@ -289,7 +289,7 @@ const es: typeof en = {
       },
       storiesCreator: {
         name: 'Stories Creator',
-        status: 'Terminado — v1.0',
+        status: 'Terminado — demo online',
         description:
           'Un generador web de publicidades para historias y estados (1080×1920), con editor de canvas y una API protegida para que un bot publique las imagenes.',
         problem:
@@ -301,7 +301,7 @@ const es: typeof en = {
         challenges:
           'Seguridad desde el dia uno: contrasenas con scrypt, 2FA TOTP obligatorio con secretos cifrados, bloqueo progresivo, tokens CSRF, CSP estricta, sesiones hasheadas y reserva atomica para el bot.',
         results:
-          'Suite de tests que cubre login, 2FA, bloqueo, CSRF, aislamiento entre usuarios, validacion de imagenes y el ciclo completo del bot.',
+          'Suite de tests que cubre login, 2FA, bloqueo, CSRF, aislamiento entre usuarios, validacion de imagenes y el ciclo completo del bot. Ademas, una demo online sin servidor: un service worker simula la API en el navegador, asi el editor se prueba sin registrarse.',
         role:
           'Defini los requisitos de seguridad y el contrato con el bot (ciclo de vida, reserva, estados). La IA escribio la implementacion y los tests; yo revise cada control de seguridad y valide el flujo completo.',
       },

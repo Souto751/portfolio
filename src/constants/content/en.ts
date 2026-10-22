@@ -287,7 +287,7 @@ const en = {
       },
       storiesCreator: {
         name: 'Stories Creator',
-        status: 'Complete — v1.0',
+        status: 'Complete — live demo',
         description:
           'A web generator for 1080×1920 story and status ads, with a canvas editor and a protected API so a bot can publish the images.',
         problem:
@@ -299,7 +299,7 @@ const en = {
         challenges:
           'Security from day one: scrypt passwords, mandatory TOTP 2FA with encrypted secrets, progressive lockout, CSRF tokens, strict CSP, hashed sessions and atomic claim for the bot.',
         results:
-          'Test suite covering login, 2FA, lockout, CSRF, user isolation, image validation and the full bot cycle.',
+          'Test suite covering login, 2FA, lockout, CSRF, user isolation, image validation and the full bot cycle. Plus a serverless online demo: a service worker mocks the API in the browser, so anyone can try the editor without signing up.',
         role:
           'I set the security requirements and the bot contract (lifecycle, claim, statuses). The AI wrote the implementation and the tests; I reviewed each security control and validated the flow end to end.',
       },

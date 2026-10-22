@@ -30,7 +30,9 @@ export const projects: Project[] = [
     ...keys('storiesCreator'),
     image: '/assets/images/projects/stories-creator.svg',
     imageAlt: 'Stories Creator — 9:16 story editor preview',
-    technologies: ['Node.js', 'SQLite', 'JavaScript', 'Canvas', 'TOTP 2FA'],
+    technologies: ['Node.js', 'SQLite', 'JavaScript', 'Canvas', 'TOTP 2FA', 'Service Worker'],
+    github: `${GITHUB}/StoriesCreator`,
+    demo: 'https://storiescreator.vercel.app',
     featured: true,
   },
   {
