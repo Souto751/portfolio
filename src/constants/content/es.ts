@@ -325,7 +325,7 @@ const es: typeof en = {
       },
       tinmangas: {
         name: 'TinMangas',
-        status: 'Publicado — lo usan conocidos',
+        status: 'Publicado — v1.11, lo usan conocidos',
         description:
           'Un lector Android de mangas, comics y webtoons en .cbr / .cbz, que agrupa por serie, muestra tapas, guarda el progreso localmente y tambien lee capitulos de MangaDex.',
         problem:

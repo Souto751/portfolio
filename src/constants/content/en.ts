@@ -323,7 +323,7 @@ const en = {
       },
       tinmangas: {
         name: 'TinMangas',
-        status: 'Released — used by friends',
+        status: 'Released — v1.11, used by friends',
         description:
           'An Android reader for manga, comics and webtoons in .cbr / .cbz files, with series grouping, covers, progress saved locally and MangaDex chapters.',
         problem:
