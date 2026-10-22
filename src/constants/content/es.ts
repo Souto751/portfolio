@@ -307,7 +307,7 @@ const es: typeof en = {
       },
       aetheria: {
         name: 'Aetheria Game Master',
-        status: 'En uso — en desarrollo continuo',
+        status: 'Beta — v1.0.0-beta.1, en uso en un servidor real',
         description:
           'Un bot game master con IA para un servidor de Minecraft con mods: conversa en lenguaje natural, se mueve, construye, maneja misiones y modera.',
         problem:

@@ -40,7 +40,8 @@ export const projects: Project[] = [
     ...keys('aetheria'),
     image: '/assets/images/projects/aetheria.svg',
     imageAlt: 'Aetheria Game Master — block world with an AI chat bubble',
-    technologies: ['Node.js', 'Mineflayer', 'Ollama', 'LLM tool calling', 'Discord.js'],
+    technologies: ['Node.js', 'Mineflayer', 'Ollama', 'LLM tool calling', 'Discord.js', 'Java (Forge)'],
+    github: `${GITHUB}/aetheria-game-master`,
   },
   {
     id: 'tinmangas',

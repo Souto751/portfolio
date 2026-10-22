@@ -305,7 +305,7 @@ const en = {
       },
       aetheria: {
         name: 'Aetheria Game Master',
-        status: 'In active use — ongoing',
+        status: 'Beta — v1.0.0-beta.1, running on a live server',
         description:
           'An AI game master bot for a modded Minecraft server: talks in natural language, moves around, builds, runs quests and moderates.',
         problem:
