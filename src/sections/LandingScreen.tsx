@@ -55,7 +55,8 @@ export function LandingScreen({
 
         <p className="mt-6 font-pixel text-[10px] tracking-[0.25em] text-pixel-yellow">{t('landing.level')}</p>
 
-        <h1 className="mt-4 font-pixel text-2xl leading-relaxed text-ink sm:text-4xl">{t('landing.name')}</h1>
+        {/* Visual title only: the page's single <h1> lives in HomeHero, which is always rendered. */}
+        <p className="mt-4 font-pixel text-2xl leading-relaxed text-ink sm:text-4xl">{t('landing.name')}</p>
 
         <p className="mt-3 font-pixel text-[11px] tracking-[0.15em] text-pixel-green sm:text-sm">
           {t('landing.title')}

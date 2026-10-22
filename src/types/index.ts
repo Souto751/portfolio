@@ -61,6 +61,8 @@ export interface Project {
   technologies: string[];
   github?: string;
   demo?: string;
+  /** Download page for desktop apps (e.g. the latest GitHub release). */
+  download?: string;
   featured?: boolean;
 }
 

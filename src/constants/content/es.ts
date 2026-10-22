@@ -36,7 +36,7 @@ const es: typeof en = {
     eyebrow: 'PERFIL DE PERSONAJE',
     name: 'Agustin Souto',
     profession: 'Desarrollador Full Stack',
-    location: 'Buenos Aires, Argentina (Remoto)',
+    location: 'Mar del Plata, Argentina (Remoto)',
     dialogueLabel: 'AGUSTIN',
     summary:
       'Desarrollador Full Stack en el Hospital Privado de Comunidad desde 2022: desarrollo sistemas web internos, migro sistemas de escritorio y 4GL heredados, y trabajo con datos sensibles de salud. Por mi cuenta construyo productos completos en web, mobile, escritorio e IA, con IA como copiloto: defino el producto y la arquitectura, y reviso, pruebo y entrego cada fase.',
@@ -266,6 +266,7 @@ const es: typeof en = {
     technologies: 'Tecnologias',
     github: 'GitHub',
     demo: 'Demo en Vivo',
+    download: 'Descargar',
     close: 'Cerrar',
     items: {
       automotiveEmpire: {
@@ -341,18 +342,18 @@ const es: typeof en = {
       },
       gameManager: {
         name: 'Game Manager',
-        status: 'Publicado — v1.0.0',
+        status: 'Publicado — v1.1.0',
         description:
           'Una app de escritorio para Windows que junta tus juegos de Steam, Epic, GOG, EA y Xbox en una sola biblioteca.',
         problem:
           'Los juegos de PC terminan repartidos en cinco launchers, y para abrir uno hay que acordarse donde lo compraste.',
         solution:
-          'Escanea las bibliotecas instaladas de cada tienda y carpetas propias, busca las tapas y abre los juegos desde un solo lugar. Corre en la bandeja y puede iniciar con Windows.',
+          'Escanea las bibliotecas instaladas de cada tienda y carpetas propias, busca las tapas (con respaldo en la tienda de Steam cuando la tienda original no las ofrece) y abre los juegos desde un solo lugar. Filtra las herramientas que no son juegos, corre en la bandeja y puede iniciar con Windows.',
         architecture:
           'Python con interfaz en CustomTkinter, un modulo lector por tienda, buscador de tapas, icono en la bandeja con pystray, build con PyInstaller e instalador para Windows.',
         challenges:
-          'Cada tienda guarda su biblioteca en un lugar y formato distinto, asi que cada una necesito su propio lector detras de una interfaz comun.',
-        results: 'Instalador para Windows (GameManager_Setup_1.0.0.exe) y chequeo de actualizaciones contra los releases de GitHub.',
+          'Cada tienda guarda su biblioteca en un lugar y formato distinto, asi que cada una necesito su propio lector detras de una interfaz comun. Con bibliotecas grandes la grilla se volvia lenta y se dibujaba mal, asi que cada tarjeta paso a renderizarse como una sola imagen en segundo plano.',
+        results: 'Version 1.1.0 publicada en GitHub con instalador para Windows sin permisos de administrador, datos del usuario en AppData con migracion desde la 1.0 y aviso de actualizaciones contra los releases.',
         role:
           'Defini que tiendas soportar y como debia comportarse la app. La IA implemento los lectores y la interfaz; yo la probe con mis propias bibliotecas y arme el release.',
       },

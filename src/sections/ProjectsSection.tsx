@@ -2,7 +2,7 @@
 
 import { useState } from 'react';
 import { motion } from 'framer-motion';
-import { Github, ExternalLink } from 'lucide-react';
+import { Github, ExternalLink, Download } from 'lucide-react';
 import { useLanguage } from '@/lib/i18n';
 import { projects } from '@/constants/projects';
 import { SectionHeading } from '@/components/SectionHeading';
@@ -168,6 +168,14 @@ export function ProjectsSection() {
                   onClick={() => window.open(selected.github, '_blank', 'noopener,noreferrer')}
                 >
                   <Github size={14} aria-hidden="true" /> {t('projects.github')}
+                </PixelButton>
+              )}
+              {selected.download && (
+                <PixelButton
+                  size="sm"
+                  onClick={() => window.open(selected.download, '_blank', 'noopener,noreferrer')}
+                >
+                  <Download size={14} aria-hidden="true" /> {t('projects.download')}
                 </PixelButton>
               )}
               {selected.demo && (

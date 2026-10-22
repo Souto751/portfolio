@@ -54,5 +54,6 @@ export const projects: Project[] = [
     imageAlt: 'Game Manager — unified game library grid',
     technologies: ['Python', 'CustomTkinter', 'PyInstaller', 'Windows'],
     github: `${GITHUB}/game-manager`,
+    download: `${GITHUB}/game-manager/releases/latest`,
   },
 ];

@@ -34,7 +34,7 @@ const en = {
     eyebrow: 'CHARACTER PROFILE',
     name: 'Agustin Souto',
     profession: 'Full Stack Developer',
-    location: 'Buenos Aires, Argentina (Remote-friendly)',
+    location: 'Mar del Plata, Argentina (Remote-friendly)',
     dialogueLabel: 'AGUSTIN',
     summary:
       'Full Stack Developer at Hospital Privado de Comunidad since 2022: I build internal web systems, migrate legacy desktop and 4GL systems, and work with sensitive health data. On my own I ship complete products across web, mobile, desktop and AI, with AI as a copilot: I define the product and the architecture, and I review, test and deliver every phase.',
@@ -264,6 +264,7 @@ const en = {
     technologies: 'Technologies',
     github: 'GitHub',
     demo: 'Live Demo',
+    download: 'Download',
     close: 'Close',
     items: {
       automotiveEmpire: {
@@ -340,18 +341,18 @@ const en = {
       },
       gameManager: {
         name: 'Game Manager',
-        status: 'Released — v1.0.0',
+        status: 'Released — v1.1.0',
         description:
           'A Windows desktop app that brings together your games from Steam, Epic, GOG, EA and Xbox in a single library.',
         problem:
           'PC games end up split across five launchers, so finding and opening a game means remembering where you bought it.',
         solution:
-          'Scans installed libraries from each store plus custom folders, fetches covers, and launches games from one place. Runs in the tray and can start with Windows.',
+          'Scans installed libraries from each store plus custom folders, fetches covers (falling back to the Steam store when the original store has none), and launches games from one place. Filters out tools that are not games, runs in the tray and can start with Windows.',
         architecture:
           'Python with CustomTkinter UI, one reader module per store, cover fetcher, tray icon with pystray, PyInstaller build and a Windows installer.',
         challenges:
-          'Every store keeps its library in a different place and format, so each one needed its own reader behind a common interface.',
-        results: 'Windows installer (GameManager_Setup_1.0.0.exe) and built-in update check against GitHub releases.',
+          'Every store keeps its library in a different place and format, so each one needed its own reader behind a common interface. Large libraries made the grid slow and glitchy, so each card is now rendered as a single image on background threads.',
+        results: 'Version 1.1.0 released on GitHub with a per-user Windows installer (no admin rights), user data in AppData migrated from 1.0, and update notifications based on GitHub releases.',
         role:
           'I defined which stores to support and how the app should behave. The AI implemented the readers and the UI; I tested it on my own libraries and packaged the release.',
       },

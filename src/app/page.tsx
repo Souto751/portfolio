@@ -1,10 +1,6 @@
-import type { Metadata } from 'next';
 import { GameExperience } from '@/components/GameExperience';
 
-export const metadata: Metadata = {
-  title: 'Agustin Souto — Full Stack Developer',
-};
-
+// Title, description and social metadata come from the root layout (app/layout.tsx).
 export default function HomePage() {
   return <GameExperience />;
 }
